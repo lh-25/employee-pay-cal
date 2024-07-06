@@ -1,6 +1,3 @@
-# The hourly function will accept hours worked. With a rate of 25 per hour 
-# Multuply their hours worked with rate, then return the value
-
 def hourly(number):
     rate = 25
     pay = number * rate
