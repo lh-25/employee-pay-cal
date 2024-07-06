@@ -1,9 +1,3 @@
-# In the main program, create a loop to start and quit the program 
-# Evertime it runs, it'll ask for a employee name and type (salary or hourly)
-# if type = hourly, ask for number of hours worked and use the hourly function in a variable 
-# if type = salary, ask for years worked and use the full-time function in a variable
-# Anything else, print off "You are unemployeed!"
-# At the loop end, print off the employees name and their pay-rate
 from pay_function import *
 account = int(input("1 - run or 2 - quit"))
 while account != 2:
